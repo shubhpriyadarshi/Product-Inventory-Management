@@ -10,10 +10,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import models.Buyer;
-import models.Order;
-import models.Product;
-import models.BuyerOrdersResponse;
+import org.example.models.Buyer;
+import org.example.models.Order;
+import org.example.models.Product;
+import org.example.models.BuyerOrdersResponse;
 import org.example.exceptions.InsufficientStockException;
 
 public class DBUtil {

@@ -1,8 +1,8 @@
 package org.example.controllers;
 
-import models.*;
 import com.google.gson.Gson;
 import org.example.exceptions.OrderPlacementException;
+import org.example.models.*;
 import org.example.utils.DBUtil;
 import spark.Request;
 import spark.Response;
